@@ -1,0 +1,12 @@
+server:
+  port: 9093
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          defauld-label: develop
+          uri: https://github.com/jose-richard/configuracion
+          search-paths: CONFIGURACION/config-data
