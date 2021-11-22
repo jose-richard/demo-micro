@@ -8,5 +8,5 @@ spring:
       server:
         git:
           defauld-label: develop
-          uri: https://github.com/jose-richard/configuracion
-          search-paths: CONFIGURACION/config-data
+          uri: https://github.com/jose-richard/demo-micro
+          search-paths: config-data
