@@ -9,7 +9,7 @@ import com.curso.model.Bike;
 
 
 
-@FeignClient(name = "bike-service", url = "http://localhost:9092")
+@FeignClient(name = "bike-service")
 @RequestMapping("/bike")
 public interface BikeClientFeing {
 	

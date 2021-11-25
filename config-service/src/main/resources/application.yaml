@@ -7,6 +7,6 @@ spring:
     config:
       server:
         git:
-          defauld-label: develop
+          default-label: develop
           uri: https://github.com/jose-richard/demo-micro
           search-paths: config-data

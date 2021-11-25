@@ -16,8 +16,8 @@ import com.curso.repository.UserRepository;
 @Service
 public class UserService {
 	
-	private final String URL_COCHE = "http://localhost:9091/coche/idUser/";
-	private final String URL_BIKE = "http://localhost:9092/bike/idUser/";
+	private final String URL_COCHE = "http://coches-service/coche/idUser/";
+	private final String URL_BIKE = "http://bike-service/bike/idUser/";
 	
 	@Autowired	
 	private UserRepository userRepo;
